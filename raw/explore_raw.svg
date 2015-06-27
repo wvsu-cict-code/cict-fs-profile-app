@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="35.127296mm"
+   height="37.348694mm"
+   viewBox="0 0 124.4668 132.33789"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="explore_raw.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="35.490544"
+     inkscape:cy="53.425514"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-206.33789,-238.33594)">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.63800001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4155"
+       width="160.35713"
+       height="151.42857"
+       x="21.964314"
+       y="224.32002" />
+    <circle
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.86699998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:0.03921569"
+       id="path4136"
+       cx="268.57144"
+       cy="304.50507"
+       r="57.142857"
+       inkscape:export-filename="D:\iict-faculty\assets\about_hover.png"
+       inkscape:export-xdpi="200.3"
+       inkscape:export-ydpi="200.3" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4138"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.4942565,0,0,0.4942565,123.17497,155.17596)"
+       inkscape:export-filename="D:\iict-faculty\assets\about_hover.png"
+       inkscape:export-xdpi="200.3"
+       inkscape:export-ydpi="200.3"><flowRegion
+         id="flowRegion4140"><rect
+           id="rect4142"
+           width="198.7475"
+           height="51.770302"
+           x="196.97975"
+           y="284.1412"
+           style="fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara4144"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1">ABOUT</flowPara></flowRoot>    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.49019608;fill-rule:nonzero;stroke:none;stroke-width:3.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 448.21513,239.40737 c -28.62163,0 -53.01762,18.21163 -62.23438,43.66797 l 4.14063,0 c 9.0173,-23.28823 31.60591,-39.79297 58.09375,-39.79297 26.48782,0 49.07503,16.50474 58.09179,39.79297 l 4.14063,0 c -9.21624,-25.45634 -33.6108,-43.66797 -62.23242,-43.66797 z m -62.23438,88.66797 c 9.2158,25.45763 33.61145,43.66992 62.23438,43.66992 28.62292,0 53.01714,-18.21229 62.23242,-43.66992 l -4.13867,0 c -9.01571,23.28983 -31.60439,39.79492 -58.09375,39.79492 -26.48938,0 -49.07946,-16.50509 -58.09571,-39.79492 l -4.13867,0 z"
+       id="circle4146"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\iict-faculty\assets\explore_fx.png"
+       inkscape:export-xdpi="200.3"
+       inkscape:export-ydpi="200.3" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:5.63800001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4153"
+       cx="268.57144"
+       cy="304.50507"
+       r="62.23325"
+       inkscape:export-filename="D:\iict-faculty\assets\about_hover.png"
+       inkscape:export-xdpi="200.3"
+       inkscape:export-ydpi="200.3" />
+  </g>
+</svg>
