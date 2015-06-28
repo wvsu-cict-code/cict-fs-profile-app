@@ -1,4 +1,4 @@
-::res://::1435394319
+::res://::1435452580
 .fnt::Font::1434241669::font<>font/SourceCodePro-Regular.ttf<>43bb4cbf1d0ecfdb1309e4cb67264f35<>1434241689
 about_button.scn::PackedScene::1434963329::
 background.scn::PackedScene::1435238214::
@@ -11,11 +11,10 @@ indicator_2.scn::PackedScene::1434241670::
 indicator_card_panel_bottom.scn::PackedScene::1434241671::
 list_item.scn::PackedScene::1434994459::
 logo_loop.scn::PackedScene::1434844167::
-main.gd::GDScript::1435294238::
-main.scn::PackedScene::1435394319::
+main.scn::PackedScene::1435439767::
 mini_frame.scn::PackedScene::1435367405::
 name_list.scn::PackedScene::1435364541::
-profile_card_base.scn::PackedScene::1435376761::
+profile_card_base.scn::PackedScene::1435452580::
 rotator.scn::PackedScene::1435328927::
 rotator_base.tex::ImageTexture::1434241671::texture_2d<>./rotator_base.png<>05ee9c0d367bd0ce846139d12f7bc6f9<>0
 settings_button.scn::PackedScene::1434964132::
@@ -24,7 +23,7 @@ sub_panel_0.scn::PackedScene::1434995241::
 sub_panel_1.scn::PackedScene::1434996750::
 sub_panel_1_parent.scn::PackedScene::1434705265::
 terminal_cursor.scn::PackedScene::1434241671::
-::res://assets::1435374179
+::res://assets::1435451236
 about_default.png::ImageTexture::1434874324::
 about_hover.png::ImageTexture::1434874355::
 background_fx_0.png::ImageTexture::1434241672::
@@ -63,6 +62,7 @@ mini_frame_2.png::ImageTexture::1434241674::
 mini_frame_3.png::ImageTexture::1434241674::
 powersource.png::ImageTexture::1434975787::
 ppbox.png::ImageTexture::1435368029::
+ppbox_empty.png::ImageTexture::1435451236::
 profile_card_0.png::ImageTexture::1434241674::
 profile_picture_guide.png::ImageTexture::1434241674::
 progress_circle.png::ImageTexture::1434241674::
@@ -78,7 +78,7 @@ sub_panel_0_header_hover.png::ImageTexture::1434241676::
 sub_panel_1.png::ImageTexture::1434241676::
 terminal_cursor.png::ImageTexture::1434241676::
 white_small_bar_indicator.png::ImageTexture::1434241676::
-::res://assets/iict_3d::1434699185
+::res://assets/iict_3d::1435439174
 0000.png::ImageTexture::1434699171::
 0001.png::ImageTexture::1434699171::
 0002.png::ImageTexture::1434699171::
@@ -323,10 +323,10 @@ white_small_bar_indicator.png::ImageTexture::1434241676::
 0241.png::ImageTexture::1434699185::
 0242.png::ImageTexture::1434699185::
 0243.png::ImageTexture::1434699185::
-::res://assets/material_design_icons::1434843318
+::res://assets/material_design_icons::1435439174
 ic_power_settings_new_white_48dp.png::ImageTexture::1434841881::
 ic_power_settings_new_white_48dp_hover.png::ImageTexture::1434843318::
-::res://assets/waves::1435375686
+::res://assets/waves::1435439181
 0001.png::ImageTexture::1435375685::
 0002.png::ImageTexture::1435375685::
 0003.png::ImageTexture::1435375685::
@@ -427,7 +427,7 @@ ic_power_settings_new_white_48dp_hover.png::ImageTexture::1434843318::
 0098.png::ImageTexture::1435375686::
 0099.png::ImageTexture::1435375686::
 0100.png::ImageTexture::1435375686::
-::res://font::1434621180
+::res://font::1435439182
 source_code_regular.fnt::Font::1434241689::font<>font/SourceCodePro-Regular.ttf<>43bb4cbf1d0ecfdb1309e4cb67264f35<>1434241689
 source_code_regular_14.fnt::Font::1434241689::font<>font/SourceCodePro-Regular.ttf<>43bb4cbf1d0ecfdb1309e4cb67264f35<>1434241689
 source_code_regular_17.fnt::Font::1434241689::font<>font/SourceCodePro-Regular.ttf<>43bb4cbf1d0ecfdb1309e4cb67264f35<>1434241689
@@ -435,7 +435,7 @@ source_code_regular_20.fnt::Font::1434241689::font<>font/SourceCodePro-Regular.t
 source_code_regular_27.fnt::Font::1434241690::font<>font/SourceCodePro-Bold.ttf<>5a0856eb52623ae94b09dbbf31a27b95<>1434241689
 source_code_regular_30.fnt::Font::1434241690::font<>font/SourceCodePro-Regular.ttf<>43bb4cbf1d0ecfdb1309e4cb67264f35<>1434241689
 source_code_regular_50.fnt::Font::1434241690::font<>font/SourceCodePro-Bold.ttf<>5a0856eb52623ae94b09dbbf31a27b95<>1434241689
-::res://profimg::1435365340
+::res://profimg::1435439185
 00.PNG::ImageTexture::1434968316::
 01.PNG::ImageTexture::1434968313::
 02.PNG::ImageTexture::1434968308::
@@ -463,8 +463,15 @@ source_code_regular_50.fnt::Font::1434241690::font<>font/SourceCodePro-Bold.ttf<
 24.PNG::ImageTexture::1435017392::
 25.PNG::ImageTexture::1435017443::
 26.PNG::ImageTexture::1435017490::
+::res://profimg/_00::1435439186
+00.PNG::ImageTexture::1435367938::
+01.PNG::ImageTexture::1435367938::
+::res://profimg/_19::1435439185
+00.png::ImageTexture::1435367938::
+01.png::ImageTexture::1435367938::
+::res://raw::1435439187
 iict.png::ImageTexture::1434750533::
 sidebar.png::ImageTexture::1434751263::
 waves.png::ImageTexture::1435372365::
-::res://scripts::1435394319
-main.gd::GDScript::1435394319::
+::res://scripts::1435439936
+main.gd::GDScript::1435452749::

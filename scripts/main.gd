@@ -314,16 +314,47 @@ func _play_card_intro():
 	get_node("card_animator").play("card_intro")
 	get_node("card/sub_panel_0/sub_panel_0_animator").play("slide_down")
 	get_node("card/sub_panel_1_parent/sub_panel_1_animator").play("drop_down")
-	get_node("card/ppanimator").play("ppanimator")
+	get_node("card/ppanimator").play("ppanimator_intro")
 	_play_name_list_extro()
 
 func _play_card_extro():
 	get_node("card_animator").play("card_extro")
+	get_node("card/ppanimator").play("ppanimator_extro")
 	_play_name_list_intro()
+	# get_node("card/pp_00").set_texture(preload("res://assets/ppbox_empty.png"))
+	# get_node("card/pp_01").set_texture(preload("res://assets/ppbox_empty.png"))
 
 func _toggle_menu():
 
-	pass
+	var activeMenuAnimPos = get_node("menu_animator").get_current_animation_pos()
+	var menuButtonToggleStatus = get_node("menu/button_menu").is_toggle_mode()
+
+	if (activeMenuAnimPos == 1.5):
+		get_node("menu/button_menu").set_disabled(true)
+	if (activeMenuAnimPos == 0):
+		get_node("menu/button_menu").set_disabled(false)
+
+	if (menuButtonToggleStatus == true):
+		var activeAnimPos = get_node("card_animator").get_current_animation_pos()
+		if(activeAnimPos == 2.5):
+			get_node("card_animator").play("card_extro")
+			get_node("menu_animator").play("menu_intro")
+		if(activeAnimPos == 0):
+			get_node("name_list_animation").play("name_list_extro")
+			get_node("menu_animator").play("menu_intro")
+		if(activeAnimPos == 0.5):
+			get_node("name_list_animation").play("name_list_extro")
+			get_node("menu_animator").play("menu_intro")
+		#debug helper
+		#get_node("debug_helper").set_text(str(activeAnimPos)+"+"+str(activeMenuAnimPos))
+
+func _on_explore_button_pressed():
+	get_node("menu_animator").play("menu_extro")
+	get_node("name_list_animation").play("name_list_intro")
+	get_node("menu/button_menu").set_disabled(false)
+
+func _close_button_pressed():
+	_play_card_extro()
 
 func _toggle_prof_00():
 	get_node("card/profile_name").set_text(profile00["name"])
@@ -571,13 +602,6 @@ func _toggle_prof_26():
 	get_node("card/profile_frame/picturebox").set_texture(profile26["img0"])
 	_play_card_intro()
 
-func _on_explore_button_pressed():
-	get_node("menu_extro").play("menu_extro")
-	get_node("name_list_animation").play("name_list_intro")
-
-func _close_button_pressed():
-	_play_card_extro()
-
 func _set_list():
 	get_node("name_lists/name_list0/name").set_text(profile00["name"])
 	get_node("name_lists/name_list0/position").set_text(profile00["position"])
@@ -696,3 +720,5 @@ func _ready():
 	get_node("card/close_card_button").connect("pressed", self, "_close_button_pressed")
 	get_node("menu/explore_button/explore_button/button").connect("pressed",self,"_on_explore_button_pressed")
 	get_node("menu/button_power").connect("pressed", self, "_quit")
+	get_node("menu/button_menu").set_disabled(true)
+	get_node("menu/button_menu").connect("pressed", self, "_toggle_menu")
