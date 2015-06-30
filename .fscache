@@ -1,4 +1,4 @@
-::res://::1435452580
+::res://::1435464358
 .fnt::Font::1434241669::font<>font/SourceCodePro-Regular.ttf<>43bb4cbf1d0ecfdb1309e4cb67264f35<>1434241689
 about_button.scn::PackedScene::1434963329::
 background.scn::PackedScene::1435238214::
@@ -11,7 +11,7 @@ indicator_2.scn::PackedScene::1434241670::
 indicator_card_panel_bottom.scn::PackedScene::1434241671::
 list_item.scn::PackedScene::1434994459::
 logo_loop.scn::PackedScene::1434844167::
-main.scn::PackedScene::1435439767::
+main.scn::PackedScene::1435461261::
 mini_frame.scn::PackedScene::1435367405::
 name_list.scn::PackedScene::1435364541::
 profile_card_base.scn::PackedScene::1435452580::
@@ -469,9 +469,9 @@ source_code_regular_50.fnt::Font::1434241690::font<>font/SourceCodePro-Bold.ttf<
 ::res://profimg/_19::1435439185
 00.png::ImageTexture::1435367938::
 01.png::ImageTexture::1435367938::
-::res://raw::1435439187
+::res://raw::1435461792
 iict.png::ImageTexture::1434750533::
 sidebar.png::ImageTexture::1434751263::
 waves.png::ImageTexture::1435372365::
-::res://scripts::1435439936
-main.gd::GDScript::1435452749::
+::res://scripts::1435461848
+main.gd::GDScript::1435461848::
